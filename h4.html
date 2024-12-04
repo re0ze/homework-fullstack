@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>h4</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .dropdown-button:hover {
+      background-color: darkgreen;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: lightgray;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      display: block;
+      text-align: left;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h3>this is a dropdown menu</h3>
+  <div class="dropdown">
+    <button class="dropdown-button">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</body>
+</html>
